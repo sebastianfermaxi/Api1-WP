@@ -10,10 +10,13 @@
 </head>
 <body>
     <?php
-    
+    require_once 'backend/class/database.php';
+    require_once 'backend/class/autoload.php';
+
     include 'frontend/views/inicio.html';
-    include 'frontend/views/categorias.html';
-    include 'frontend/views/agregar-categoria.html'    
+    include 'frontend/views/agregar-categoria.html';
+    include 'frontend/views/agregar-producto.html';
+
     ?>
 
 </body>

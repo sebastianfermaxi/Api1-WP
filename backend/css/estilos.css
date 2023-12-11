@@ -9,3 +9,36 @@
 .title{
     color: rgb(38, 38, 170)
 }
+
+.fila{
+    background-color: aqua;
+}
+
+.tablas_cont{
+    width: 80%;
+    display: flex;
+    margin: 60px;
+}
+
+.mi-tabla {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+  }
+  
+  .mi-tabla th,
+  .mi-tabla td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .mi-tabla thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .mi-tabla tbody + tbody {
+    border-top: 2px solid #dee2e6;
+  }

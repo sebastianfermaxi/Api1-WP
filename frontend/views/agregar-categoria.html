@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="frontend/assets/js/agregar-categoria.js"></script>
 </head>
 <body>
-    <h3 class="text-center mt-4 title"> Nueva Categoría</h3>
-    <form class="text-center agr mt-4">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Nombre Categoría</label>
-          <input type="text" class="form-control" id="nombre" aria-describedby="nombre" size="xs">
-          <div id="nombre" class="form-text">Ingrese nombre de la nueva categoría.</div>
-        </div>
-        <button type="submit" class="btn btn-danger m-4">Cancelar</button>
-        <button type="" class="btn btn-success m-4">Agregar</button>
-      </form>
-      <div class="text-center">
-        <label for="" >Maxi Fernandez</label>
-      </div>
+  
+<h3 class="text-center mt-2 title"> Nueva Categoría</h3>
+    
+<form class="text-center agr mt-1" id="form-cat">
+    <div class="mb-1">
+      <input type="text" class="form-control" id="name-cat" aria-describedby="nombre" size="xs" autocomplete="off">
+      <div id="nombre" class="form-text">Ingrese nombre de la categoría</div>
+    </div>
+    <button class="btn btn-danger m-1">Cancelar</button>
+    <button type="submit" id="agregar-cat" class="btn btn-success m-1" >Agregar</button>
+  </form>
+  <div class=" text-center " >
+        
+    <p id="noti_cat" style="color: rgb(86, 86, 86)"></p>
+
+  </div>
 </body>
 </html>

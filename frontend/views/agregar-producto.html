@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="frontend/assets/js/agregar-producto.js"></script>
+</head>
+
+<body>
+
+    <h3 class="text-center mt-4 title"> Nuevo Producto</h3>
+    
+    <form class="text-center agr mt-1" id="formulario-producto">
+        <div class="mb-1">
+          <label for="nombre-prod" class="form-label">Nombre Producto</label>
+          <input type="text" class="form-control" id="nombre-prod" aria-describedby="nombre" size="xs" autocomplete="off">
+          <div id="nombre" class="form-text">Ingrese nombre del producto</div>
+        </div>
+        <div class="mb-3">
+          <label for="nombre-prod" class="form-label">Seleccione Categoría</label>
+          <select class="form-select" aria-label="" id="select-cat">
+            <option id="0" >Seleccione categoría</option>
+          </select>
+        </div>
+        <button  class="btn btn-danger m-1">Cancelar</button>
+        <button id="agregar_producto" class="btn btn-success m-1" >Agregar</button>
+      </form>
+      
+      <div class=" text-center " >
+            
+        <p id="noti_prod" style="color: rgb(86, 86, 86)"></p>
+
+      </div>
+      
+</body>
+</html>
